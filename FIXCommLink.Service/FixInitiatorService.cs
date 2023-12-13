@@ -2,7 +2,7 @@
 
 namespace FIXCommLink.Service;
 
-internal class FixInitiatorService : MessageCracker, IApplication
+public class FixInitiatorService : MessageCracker, IApplication
 {
     public void OnMessage(QuickFix.FIX44.NewOrderSingle message, SessionID sessionID) { }
 
